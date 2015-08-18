@@ -4,3 +4,10 @@ $(press).click(
   
   });
 
+
+$(press2).click(
+  function(){
+  
+$("section").slideDown("fast");  
+  });
+
