@@ -6,4 +6,23 @@ nav{width: 100px;
      float: left;
     background-color: aqua;}
 
+/**Home-page***/
+banner{width: 250px;
+     height: 500px;
+     float: left;
+     background-color:aliceblue;}
+
+section{width: 900px;
+     height: 500px;
+    display: none;
+    background-color: aquamarine;
+     float: left;
+    }
+
+li{list-style: none;
+  padding: 5px;
+ margin: 2px;}
+h1{font-size: 80px;
+   font-weight:lighter;}
+
 
