@@ -1,30 +1,105 @@
 body{margin:0 0;
     padding: 0 0;
-    background-color: dimgrey;}
-nav{width: 100px;
-     height: 500px;
+    height: auto;
+    }
+
+
+nav{width: 8%;
+     height: 100%;
      float: left;
+    position: fixed;
     background-color: aqua;}
 
 /**Home-page***/
-banner{width: 250px;
-     height: 500px;
-     float: left;
-     background-color:aliceblue;}
+banner{
+    width: 92%;
+    margin-left: 8%;
+    background-color:darkseagreen;
+     float:left;}
 
-section{width: 900px;
-     height: 500px;
-    display: none;
-    background-color: aquamarine;
-     float: left;
-    }
 
-li{list-style: none;
-  padding: 5px;
- margin: 2px;}
+
+li{ font-family:"trench"; 
+            font-size:18px;
+			float:left; 
+            list-style: none;
+            padding: 10px;
+            margin: 12px;
+            margin-top: 30px;}
+
+li a{ text-decoration:none; 
+         color:#666;}
+
+
+li:hover{
+  /* 4px line to the right of the item - visible on hover */
+/*
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -4px;
+*/
+  background-color: #83b0b9;
+    color:red;
+/*  opacity: 0;*/
+ 
+  transition: opacity 0.9s;
+  pointer-events:stroke;
+}
+li a:active{ color:red;} 
+
+li:active{background-color: red;text-decoration:underline; }
+.active a{ text-decoration:underline; 
+            color:#33ccff;}
+
 h1{font-size: 80px;
+    text-align: center;
    font-weight:lighter;}
 /*---about-page------*/
+
+.section_bio{width: 40%;
+       float: left;      
+       margin:10% 0  0 10%;
+    }
+#section_img{ width: 50%;
+              float: right;
+              height:613px;
+    
+    }
+.p_section{
+    font-size: 19px;
+    
+}
+#section_foter{
+    width: 30%;
+    float: left;
+    margin:10% 0 0 10%;
+}
+
+/*-----Projects page------*/
+#projects_content{width:91%;
+       float: left;      
+       margin:0 0 0 9%;
+    }
+.img3a{
+    width: 5%;
+    float: left;
+}
+/*-----Contact page------*/
+
+.img{margin-left: 25%;
+   }
+
+h3{text-align: center;}
+
+footer{float: left;
+    margin:3% 0% 0% 50%;
+    
+}
+hr{width: 100%;
+   height: 5px;
+  background-color: black;
+  color: black;}
 
 
 
