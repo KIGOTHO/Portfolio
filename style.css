@@ -14,10 +14,20 @@ nav{width: 8%;
 banner{
     width: 92%;
     margin-left: 8%;
-    background-color:darkseagreen;
+    background-color:dimgrey;
      float:left;}
 
-
+#section_welcome{ width: 25%;
+              float: right;
+              height:413px;
+              margin-top: 50px;
+    
+    }
+#section_tools{ width: 25%;
+              float: right;
+              height:413px;
+              margin-top: 50px;
+    }
 
 li{ font-family:"trench"; 
             font-size:18px;
@@ -40,20 +50,19 @@ li:hover{
   right: -4px;
 */
   background-color: #83b0b9;
-    color:red;
 /*  opacity: 0;*/
  
   transition: opacity 0.9s;
   pointer-events:stroke;
 }
-li a:active{ color:red;} 
 
-li:active{background-color: red;text-decoration:underline; }
-.active a{ text-decoration:underline; 
-            color:#33ccff;}
-
-h1{font-size: 80px;
+h1{
     text-align: center;
+    width: 80%;
+    float: left;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
    font-weight:lighter;}
 /*---about-page------*/
 
@@ -71,7 +80,7 @@ h1{font-size: 80px;
     
 }
 #section_foter{
-    width: 30%;
+    width: 40%;
     float: left;
     margin:10% 0 0 10%;
 }
@@ -90,16 +99,31 @@ h1{font-size: 80px;
 .img{margin-left: 25%;
    }
 
-h3{text-align: center;}
-
+h4{font-weight: 300;}
 footer{float: left;
     margin:3% 0% 0% 50%;
     
 }
 hr{width: 100%;
-   height: 5px;
-  background-color: black;
-  color: black;}
+   height: 3px;
+  background-color:dimgrey;}
 
+#section_contact{ width: 20%;
+                  float: right;
+                  margin-right: 20%;
+                  height:513px;
+    
+    }
+form{margin:47% 0 0 0%;}
 
+.section_bio_contact{width: 40%;
+       float: left;      
+       margin:10% 0  0 20%;
+    }
+h5{float: left;
+   width: 15%;
+    color:aqua;
+  }
 
+#title{color:black;
+       font-size: 25px;}
